@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.events {
+    background-color: white;
+    width:650px;
+    border: 1px rgb(212, 212, 212) solid;
+    display: flex;
+}
+
+.time {
+    display:flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.allEvents {
+    border-bottom: 1px rgb(212, 212, 212) solid;
+    width:100%;
+}
+
+.allEvents p {
+    margin: 0px 0px 0px;
+}
+
+.city {
+    color: rgb(189, 185, 185);
+    font-size: 15px;
+}
