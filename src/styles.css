@@ -14,11 +14,35 @@ body {
     display:flex;
     align-items: center;
     padding-right: 10px;
+    padding-left: 10px;
+}
+
+.centerEvents {
+    margin:auto;
+    width:50%;
+}
+
+.dates {
+    display:flex;
 }
 
 .allEvents {
-    border-bottom: 1px rgb(212, 212, 212) solid;
+    /* border-bottom: 1px rgb(212, 212, 212) solid; */
     width:100%;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    width:100px;
+    height:36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    border-radius: 4px;
 }
 
 .allEvents p {
